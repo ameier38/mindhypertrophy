@@ -1,0 +1,17 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: mindhypertrophy-db
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: mindhypertrophy-db
+    spec:
+      containers:
+        - name: mindhypertrophy-db
+          image: mongo
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 27017

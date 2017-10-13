@@ -1,0 +1,12 @@
+.LoadingArticle .title {
+    display: block;
+    height: 30px;
+    width: 200px;
+    background-color: lightgrey
+}
+.LoadingArticle .content {
+    display: block;
+    height: 10px;
+    background-color: lightgrey;
+    margin-top: 5px;
+}

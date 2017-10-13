@@ -1,0 +1,13 @@
+.NavigationIcon {
+    font-size: 10px;
+    color: #9E9E9E;
+}
+
+.NavigationIcon:hover, .NavigationIcon:focus {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+    .NavigationIcon .label {
+        margin: 0;
+    }

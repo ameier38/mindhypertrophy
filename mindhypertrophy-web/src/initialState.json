@@ -1,0 +1,51 @@
+{
+    "selectedArticle": {
+        "isFetching": false,
+        "requestedAt": 1488195236191,
+        "receivedAt": 1488195241578,
+        "selectedArticle":{
+            "id": "a",
+            "slug": "about",
+            "createdDate": "2016-02-26",
+            "imageUrl": "s3://blah_blah",
+            "title": "About",
+            "summary": "Blog about stuff",
+            "tags": [ "Cool", "New"],
+            "markdown": "### About \nAbout this blog"
+        }
+    },
+    "articles": {
+        "isFetching": false,
+        "requestedAt": 1488195236191,
+        "receivedAt": 1488195241578,
+        "articles": [
+            {
+                "id": "a",
+                "slug": "about",
+                "createdDate": "2016-02-26",
+                "imageUrl": "s3://blah_blah",
+                "title": "About",
+                "summary": "Blog about stuff",
+                "tags": [ "Cool", "New"]
+           },
+            {
+                "id": "b",
+                "slug": "contact",
+                "createdDate": "2016-02-26",
+                "imageUrl": "s3://blah_blah",
+                "title": "Contact",
+                "summary": "Contact Us!",
+                "tags": [ "Cool"]
+            }
+        ]
+    },
+    "tags": {
+        "isFetching": false,
+        "requestedAt": 1488195236191,
+        "receivedAt": 1488195241578,
+        "tags": [
+            {"name": "Cool", "selected": true},
+            {"name": "New", "selected": false}
+        ]
+    }
+}

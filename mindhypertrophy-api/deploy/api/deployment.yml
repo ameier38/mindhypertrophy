@@ -1,0 +1,38 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: mindhypertrophy-api
+spec:
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: mindhypertrophy-api
+    spec:
+      containers:
+        - name: mindhypertrophy-api
+          image: index.docker.io/ameier38/mindhypertrophy-api:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 5000
+          env:
+            - name: NODE_ENV
+              value: production
+            - name: MONGO_HOST
+              value: mindhypertrophy-db
+            - name: MONGO_PORT
+              value: '80'
+            - name: MONGO_DATABASE
+              value: admin
+            - name: DEBUG
+              value: '*'
+            - name: APP_SECRET
+              valueFrom:
+                secretKeyRef:
+                  name: mindhypertrophy-secrets
+                  key: APP_SECRET
+            - name: ADMIN_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: mindhypertrophy-secrets
+                  key: ADMIN_PASSWORD

@@ -1,0 +1,15 @@
+.LoadingArticleCard:focus, .LoadingArticleCard:hover {
+  transform: scale(1.01);
+  cursor: pointer;
+}
+    .LoadingArticleCard .card-title {
+        height: 15px;
+        width: 100px;
+        background-color: lightgrey
+    }
+    .LoadingArticleCard .card-summary {
+        height: 10px;
+        background-color: lightgrey;
+        display: block;
+        margin-top: 5px;
+    }

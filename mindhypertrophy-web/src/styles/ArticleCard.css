@@ -1,0 +1,7 @@
+.ArticleCard:focus, .ArticleCard:hover {
+  transform: scale(1.01);
+  cursor: pointer;
+}
+  .ArticleCard .card-subtitle {
+    color: grey
+  }

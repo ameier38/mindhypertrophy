@@ -1,0 +1,15 @@
+.BottomNavigation {
+    background-color: white;
+    position: fixed; 
+    bottom: 0; 
+    width: 100%;
+}
+
+    .BottomNavigation .icon-container {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .BottomNavigation .NavigationIcon {
+        margin: 5px;
+    }

@@ -1,0 +1,17 @@
+.TagBox {
+    padding: 5px 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex: wrap;
+}
+    .TagBox .Tag {
+        margin: 5px;
+    }
+
+    .TagBox .Tag:hover{
+        color: #333;
+        background-color: #fff;
+        border-color: #ccc;
+    }

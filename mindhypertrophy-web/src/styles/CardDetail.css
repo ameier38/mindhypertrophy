@@ -1,0 +1,8 @@
+.CardDetail {
+  background-color: #ffffff;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 1px solid #d8d8d8;
+  border-top-width: 0;
+  border-bottom-width: 2px;
+}

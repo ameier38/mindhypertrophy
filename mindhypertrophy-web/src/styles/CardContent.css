@@ -1,0 +1,10 @@
+.CardContent {
+    padding: 20px 20px;
+    font-size: 16px;
+    line-height: 24px;
+}
+.CardContent h1, h2, h3, h4, h5, h6{
+    color: #999999;
+}
+.CardContent span.first-inline p:first-child { display: inline }
+.CardContent span.last-inline p:last-child { display: inline }

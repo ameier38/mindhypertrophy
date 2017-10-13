@@ -1,0 +1,18 @@
+.Footer {
+    color: #999999;
+    border-top: 1px solid #ffffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+    .Footer a{
+        color: #999999;
+        margin-left: 10px;
+    }
+    .Footer a:hover {
+        color:#000;
+        text-decoration:none;
+        cursor: pointer;
+    }
+    .Footer .row div[class^="col-"]:last-child{
+        text-align: right;
+    }

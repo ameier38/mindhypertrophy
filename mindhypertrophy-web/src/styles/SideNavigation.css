@@ -1,0 +1,16 @@
+.SideNavigation {
+    height: 70vh;
+    bottom: 0;
+    position: fixed;
+}
+
+    .SideNavigation .icon-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+    }
+
+    .SideNavigation .NavigationIcon {
+        margin: 20px;
+    }

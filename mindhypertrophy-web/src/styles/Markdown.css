@@ -1,0 +1,13 @@
+.Markdown img {
+    max-width: 100%;
+}
+
+.Markdown pre {
+    background-color: #f6f8fa;
+    padding: 16px;
+    border-radius: 4px;
+}
+
+blockquote {
+    border-left-color: #009688
+}
